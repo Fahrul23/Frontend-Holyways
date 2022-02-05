@@ -77,7 +77,7 @@ const Navbar = () => {
                     </div>
                     :
                     <div className="avatar" onClick={() => {setDropdown(!dropdown)}}>
-                        <img src={user.image ? `http://localhost:5000/uploads/${user.image}` : profile} alt="profile" />
+                        <img src={user.image ? `https://res.cloudinary.com/deerc6lof/image/upload/v1644041629/${user.image}` : profile} alt="profile" />
                     </div>
                 }
             </div>

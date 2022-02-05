@@ -68,7 +68,7 @@ function EditProfile() {
                 Formdata.set('image', form.image[0], form.image[0].name)
             }
 
-            let response = await API.put('/edit-profile',Formdata, config)
+            let response = await API.patch('/edit-profile',Formdata, config)
             setLoading(false)
             const id = response.data.data.id
             console.log("id" ,id)

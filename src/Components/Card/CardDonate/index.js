@@ -9,7 +9,7 @@ function CardDonate(props) {
     return (
         <div className="card-donate">
             <div className="card-donate-image">
-                <img src={`http://localhost:5000/uploads/${image}`} alt="donate" />
+                <img src={`https://res.cloudinary.com/deerc6lof/image/upload/v1644041629/${image}`} alt="donate" />
             </div>
             <div className="card-title">
                 <p>{title}</p>

@@ -47,7 +47,7 @@ const Profile = () => {
                     {user && (
                         <div className="profile-info">
                             <div className="profile-img">
-                                <img src={ user.image ? `http://localhost:5000/uploads/${user.image}` : profileImg} alt="profile" />
+                                <img src={ user.image ? `https://res.cloudinary.com/deerc6lof/image/upload/v1644041629/${user.image}` : profileImg} alt="profile" />
                             </div>
                             <div className="profile-item">
                                 <div className="item">

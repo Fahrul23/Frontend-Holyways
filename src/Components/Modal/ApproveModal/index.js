@@ -31,7 +31,7 @@ function ApproveModal({isOpen,closeModal, data, handleSubmit, loading}) {
                      <h4 class="name">{data.name}</h4>
                      <Input type="readonly" placeholder="Nominal Donation" value={data.amount} />
                      <div className="image-file">
-                         <img src={`http://localhost:5000/uploads/${data.image}`} alt="image-file" />
+                         <img src={`https://res.cloudinary.com/deerc6lof/image/upload/v1644041629/${data.image}`} alt="image-file" />
                      </div>
                      <Button 
                         type="submit" 

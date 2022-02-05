@@ -102,7 +102,7 @@ const Detail = () => {
                     <div>
                         <div className="detail-donate">
                             <div className="detail-donate-image">
-                                <img src={`http://localhost:5000/uploads/${fund.thumbnail}`} alt="detail-donate" />
+                                <img src={`https://res.cloudinary.com/deerc6lof/image/upload/v1644041629/${fund.thumbnail}`} alt="detail-donate" />
                             </div>
                             <div className="card-donate-content">
                                 <h2>{fund.title}</h2>
